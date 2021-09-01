@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;500;600;700&display=swap" rel="stylesheet');
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: #545e75;
+  margin: 0;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #9FB4C7;
+  margin: 0 0 10px 0;
+}
+
+p{
+  font-family: 'STIX Two Text', serif;
+  font-size: 1.3em;
+  color: gray;
+}
+
+button{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #f28f3b;
+  background-color: white;
+  border: 2px solid #f28f3b;
+  padding: 1em;
+  width: 10em;
+  transition: all 0.2s linear 0s;
+  margin: 1em 0 0 0;
+}
+
+button:hover{
+  background-color: #f28f3b;
+  color: white;
+  transition: all 0.2s linear 0s;
+}
+
+button:focus{
+  outline: none;
+}
+
+hr{
+  color: #f28f3b;
+  background-color: #f28f3b;
+  border: none;
+  height: 1px;
+  margin: 2em 0 2em 0;
+}
+
+#titleDiv{
+  width: 100%;
+  height: 80vh;
+  background-image: url('../images/handyman.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  overflow: auto;
+  background-attachment: fixed;
+}
+
+#titleText{
+  color: white;
+  margin: 10% 0 10% 10%;
+}
+
+#titleText h2{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+#titleText h1{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 10em;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+
+.myNavClass{
+  background-color: transparent;
+}
+
+.myItemClass.nav-item .nav-link{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  transition: all 0.7s;
+}
+
+.myItemClass.nav-item.active .nav-link{
+  color: white;
+}
+
+.collapse:hover .myItemClass.nav-item .nav-link{
+  color: gray;
+  transition: 0.7s;
+}
+
+.collapse .myItemClass.nav-item .nav-link:hover{
+  color: white;
+  transition: 0.7s;
+}
+
+
+#firstParagraph{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 3em 0 3em 0;
+}
+
+#services{
+  width: 70%;
+}
+
+.textDiv{
+  margin: 3em;
+}
+
+#secondParallax{
+  width: 100%;
+  height: 700px;
+  background-image: url('../images/boards.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#secondParagraph{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 3em 0 3em 0;
+}
+
+#testemonials{
+  width: 70%;
+}
+
+#promiseAndAbout{
+  width: 30%;
+}
+
+.testemonial{
+  margin: 3em 0 0 0;
+}
+
+.testemonial p{
+  font-size: 1.7em;
+  margin: 10px;
+}
+
+.preload-transitions{
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #545e75;
+  height: 500px;
+}
+
+.footer h1{
+  color: white;
+  margin: 0;
+}
+
+.footer button{
+  background-color: #545e75;
+}
+
+.footer button:hover{
+  background-color: #f28f3b;
+}
+
+@media only screen and (max-width: 991px){
+  #titleText{
+    width: 100%;
+    margin: 200px 0 0 0;
+    text-align: center;
+  }
+
+  #titleText h1{
+    font-size: 5em;
+  }
+
+  #firstParagraph{
+    flex-direction: column;
+  }
+
+  #services{
+    width: 100%;
+  }
+
+  .textDiv{
+    margin: 3em 0 0 0;
+  }
+
+  #secondParagraph{
+    flex-direction: column;
+  }
+
+  #testemonials{
+    width: 100%;
+  }
+  
+  #promiseAndAbout{
+    width: 100%;
+  }
+
+  .myNavClass{
+    background-color: white;
+  }
+
+  .myItemClass.nav-item .nav-link{
+    color: gray;
+    text-align: center;
+  }
+
+  .collapse .myItemClass.nav-item .nav-link:hover{
+    color: gray
+  }
+
+  .myNavClass .navbar-toggler{
+    border: none;
+    margin-left: 80%;
+    margin-top: 0;
+  }
+
+  .myNavClass .navbar-toggler:hover{
+    background-color: white;
+  }
+
+  .myNavClass .navbar-toggler:active{
+    border: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  #titleText h1{
+    font-size: 3em;
+  }
+}

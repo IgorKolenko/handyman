@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Homepage</title>
+</head>
+<body class="preload-transitions">
+    <div id="titleDiv">
+        <nav class="myNavClass navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse animate__animated animate__fadeInRight" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="myItemClass nav-item">
+                  <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="myItemClass nav-item">
+                  <a class="nav-link" href="/services">SERVICES</a>
+                </li>
+                <li class="myItemClass nav-item">
+                  <a class="nav-link" href="/projects">PROJECT GALLERY</a>
+                </li>
+                <li class="myItemClass nav-item">
+                    <a class="nav-link" href="/contact">CONTACT</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+        <div id="titleText" class="animate__animated animate__fadeIn">
+            <h2>YOUR FRIENDLY NEIGHBORHOOD</h2>
+            <h1>Handyman</h1>
+        </div>
+    </div>
+    <div id="firstParagraph" class="animate__animated animate__fadeIn">
+        <div id="services" class="textDiv">
+            <h2>SERVICES</h2>
+            <h1>Generations of Craftsmanship</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod eleifend quam, non mollis urna dictum vel. In feugiat faucibus mi. Sed dignissim sagittis eros lacinia egestas. Ut at lorem vel nisi imperdiet efficitur. Nullam rutrum feugiat convallis. Suspendisse diam elit, consequat fringilla lectus non, mollis lobortis nunc. Aliquam ac consectetur mi.
+                Aenean odio risus, eleifend quis tortor id, tincidunt volutpat neque. Donec suscipit feugiat enim, dignissim finibus eros venenatis sed. Etiam vitae odio rutrum, condimentum odio id, egestas justo. Curabitur viverra, lacus ut faucibus fermentum, nisi risus mollis urna, et interdum mauris nunc non orci. Integer rhoncus tristique purus ac ullamcorper.
+            </p>
+        </div>
+        <div id="schedule" class="textDiv">
+            <h2>SCHEDULE APPOINTMENT</h2>
+            <p>Fusce dictum mollis ante, quis luctus justo posuere non.</p>
+            <button onClick="window.location.href='/contact'">START NOW</button>
+        </div>
+    </div>
+    <div id="secondParallax">
+    </div>
+    <div id="secondParagraph" class="animate__animated animate__fadeIn">
+        <div id="testemonials" class="textDiv">
+            <h1>Testemonials</h1>
+            <div class="testemonial">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla facilisis feugiat."</p>
+                <h2>- JOHN DOE</h2>
+            </div>
+            <div class="testemonial">
+                <p>"Morbi et libero dapibus, feugiat massa ultrices, imperdiet nibh. Mauris nisi eros, aliquet quis sem vel, ullamcorper gravida lectus. Vestibulum id ligula hendrerit neque ullamcorper fringilla."</p>
+                <h2>- JOHN DOE</h2>
+            </div>
+            <div class="testemonial">
+                <p>"Cras egestas consequat lacus tempus dictum. Quisque ut euismod ex. Fusce blandit non nibh id vestibulum. "</p>
+                <h2>- JOHN DOE</h2>
+            </div>
+            <div style="width: 100%; height: 20px; border-bottom: 1px solid #f28f3b; text-align: center">
+                <span style="font-size: 5em; background-color: white; padding: 0 10px;">
+                    “ <!--Padding is optional-->
+                </span>
+            </div>
+        </div>
+        <div id="promiseAndAbout" class="textDiv">
+            <div id="promise">
+                <h2>MY PROMISE</h2>
+                <p>Duis blandit nunc ac dui mattis, eu vestibulum diam pulvinar. Ut vulputate nisl in quam sollicitudin, non cursus est scelerisque. Aenean ornare tempor nibh, vitae congue elit commodo at. Nam eu odio et ante convallis varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ac convallis enim. Aenean viverra scelerisque euismod. Aliquam erat volutpat. Quisque vel dictum tortor.</p>
+                <br />
+                <h2>SEE MY HANDY WORK</h2>
+                <button onClick="window.location.href='/projects'">PROJECT GALLERY</button>
+                <hr />
+            </div>
+            <div id="about">
+                <h1>About Me</h1>
+                <h2>MY NAME IS PETER</h2>
+                <p>Integer dapibus feugiat orci, vitae pellentesque leo pulvinar et. Suspendisse non risus turpis. Suspendisse maximus nibh sit amet euismod rutrum. Vestibulum elementum egestas lacus, dictum aliquet ex consectetur ac. Cras ullamcorper diam a feugiat fermentum. Duis suscipit vestibulum quam, sed fermentum lectus. Vestibulum lobortis nulla a mollis malesuada. Vivamus a lacinia nisi. Integer iaculis lorem a turpis facilisis posuere.</p>
+                <hr />
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Schedule Appointment</h1>
+        <button onClick="window.location.href='/contact'">START NOW</button>
+    </div>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded",function(){
+          let node = document.querySelector('.preload-transitions');
+          node.classList.remove('preload-transitions');
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;500;600;700&display=swap" rel="stylesheet');
+
+#parentServiceDiv{
+    margin: auto;
+    width: 70%;
+}
+
+#parentServiceDiv hr{
+    width: 50%;
+}
+
+#servicesTypes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.subServicesDiv{
+    width: 50%;
+    margin: 1em;
+}
+
+.subServicesDiv h1{
+    font-weight: normal;
+}
+
+.subServicesDiv p{
+    margin-bottom: 3em;
+}
+
+.myItemClass.nav-item .nav-link{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    transition: all 0.7s;
+  }
+  
+  .myItemClass.nav-item.active .nav-link{
+    color: black;
+  }
+  
+  .collapse:hover .myItemClass.nav-item .nav-link{
+    color: gray;
+    transition: 0.7s;
+  }
+  
+  .collapse .myItemClass.nav-item .nav-link:hover{
+    color: black;
+    transition: 0.7s;
+  }
+
+  @media only screen and (max-width: 991px){
+    #parentServiceDiv{
+        width: 100%;
+    }
+
+    .myNavClass{
+        background-color: white;
+      }
+    
+      .myItemClass.nav-item .nav-link{
+        color: gray;
+        text-align: center;
+      }
+    
+      .collapse .myItemClass.nav-item .nav-link:hover{
+        color: gray
+      }
+    
+      .myNavClass .navbar-toggler{
+        border: none;
+        margin-left: 80%;
+        margin-top: 0;
+      }
+    
+      .myNavClass .navbar-toggler:hover{
+        background-color: white;
+      }
+    
+      .myNavClass .navbar-toggler:active{
+        border: none;
+        text-decoration: none;
+      }
+  }
+
+  @media only screen and (max-width: 700px){
+    #servicesTypes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subServicesDiv{
+        width: 100%;
+        margin: 0;
+    }
+  }

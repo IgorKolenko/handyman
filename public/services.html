@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <title>Homepage</title>
+</head>
+<body>
+    <nav class="myNavClass navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse animate__animated animate__fadeInRight" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="myItemClass nav-item">
+              <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="myItemClass nav-item">
+              <a class="nav-link" href="/services">SERVICES</a>
+            </li>
+            <li class="myItemClass nav-item">
+              <a class="nav-link" href="/projects">PROJECT GALLERY</a>
+            </li>
+            <li class="myItemClass nav-item">
+                <a class="nav-link" href="/contact">CONTACT</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+    <div id="parentServiceDiv">
+        <h1>
+            <h1 class="animate__animated animate__fadeIn">Services</h1>
+            <hr />
+            <div id="servicesTypes" class="animate__animated animate__fadeInUp">
+                <div class="subServicesDiv">
+                    <h1>Carpentry</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at mauris egestas, dapibus libero non, accumsan enim. Nunc quam quam, pharetra sed leo non, placerat auctor lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean at quam cursus, facilisis dui nec, efficitur diam.</p>
+                    <h2>CROWN MOLDING</h2>
+                    <p>Nunc luctus purus leo, nec consequat purus porta commodo. Aenean a ornare arcu, eget mollis metus. Nulla facilisi. Aenean ac nulla nec nulla condimentum molestie id molestie velit. Morbi eget massa ut arcu posuere laoreet. Fusce scelerisque turpis tellus, id efficitur tortor mattis vitae. Integer vestibulum lorem vitae neque interdum, vitae vestibulum elit dapibus. Sed venenatis rhoncus urna, eu auctor eros placerat a.</p>
+                    <br />
+                    <h1>Plumbing</h1>
+                    <p>Ut tempus, massa non congue accumsan, massa lectus iaculis arcu, vel eleifend velit magna id sem. Sed feugiat nisi a mi vulputate mattis. Maecenas justo dolor, eleifend nec condimentum id, volutpat id turpis. Sed non nibh sit amet metus sollicitudin gravida. Integer ornare congue risus, eget blandit justo laoreet auctor. Vestibulum aliquet enim odio. Suspendisse potenti.</p>
+                    <h2>LEAKS & CLOGS</h2>
+                    <p>Nam maximus nunc et leo laoreet, nec cursus ipsum euismod. Aliquam nec diam in diam fermentum faucibus vitae sit amet massa. Nunc sodales maximus accumsan. Etiam rutrum interdum libero id accumsan. Etiam vitae urna nulla. Duis fermentum ante ut nunc accumsan efficitur et sed est. Morbi varius nisl purus, at venenatis justo bibendum nec.</p>
+                </div>
+                <div class="subServicesDiv">
+                    <h1>Installations</h1>
+                    <p>Aliquam erat volutpat. Fusce in sagittis mauris, eu varius turpis. Proin porta sodales velit nec ullamcorper. Phasellus commodo mi eu odio dignissim efficitur. Phasellus sit amet suscipit diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at urna quis quam suscipit convallis non quis est.</p>
+                    <br />
+                    <h1>Electrical</h1>
+                    <p>In dolor sapien, scelerisque ut placerat non, porta at ipsum. Nullam pharetra nisl sit amet ipsum rhoncus, a dignissim mauris posuere. Sed vehicula nulla orci, eu dapibus est luctus et. Pellentesque odio leo, convallis vel semper pellentesque, iaculis ut turpis.</p>
+                    <h2>FIXTURES</h2>
+                    <p>Ut non iaculis lorem, quis dignissim erat. Aenean efficitur libero at efficitur scelerisque. Sed vitae eleifend purus. Quisque varius porttitor sapien a tempor. Fusce ut augue maximus dolor pulvinar vestibulum et ut sapien. Donec posuere hendrerit urna, vel finibus metus ullamcorper ut. Mauris condimentum, ipsum sit amet venenatis mattis, purus lectus finibus nibh, id dapibus purus eros tempor enim. Donec bibendum massa vel massa pretium, non faucibus risus varius.</p>
+                    <h2>SWITCHES & DIMMERS</h2>
+                    <p>Nunc aliquam cursus ornare. Praesent feugiat libero in tortor vulputate aliquet. Curabitur suscipit rhoncus consectetur. Cras eleifend, odio in molestie vulputate, risus risus bibendum elit, ut placerat elit nunc vitae purus. Nullam molestie nulla et consequat mollis. Phasellus sit amet commodo lorem. Aenean rutrum metus non arcu pharetra varius. Curabitur a interdum ligula.</p>
+                </div>
+            </div>
+        </h1>
+    </div>
+    <div class="footer">
+        <h1>Schedule Appointment</h1>
+        <button onClick="window.location.href='/contact'">START NOW</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
